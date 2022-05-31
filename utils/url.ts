@@ -12,7 +12,7 @@ export const extendUrl = (originUrl: string, params: { [key: string]: any }) => 
 };
 
 // 获取参数
-const getUrlParamsMap = (url: string): { [key: string]: string } => {
+export const getUrlParamsMap = (url: string): { [key: string]: string } => {
   const result = {};
   const paramsString = url.split("?")[1];
 
