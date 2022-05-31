@@ -53,7 +53,6 @@ export class ArrayQueue<T> {
 
   delete(item: T) {
     const i = this._indexOf(item, this._list);
-    console.log(i);
     if (i >= 0) {
       this._list.splice(i, 1);
     } else {
