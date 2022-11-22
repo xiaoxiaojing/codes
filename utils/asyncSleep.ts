@@ -1,4 +1,4 @@
-// 定义
+// 参考：https://v8.dev/blog/fast-async
 class AsyncSleep {
   constructor(timeout) {
     this.timeout = timeout;
